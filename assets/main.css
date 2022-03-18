@@ -1,0 +1,7 @@
+main {
+    height: 100vh;
+    margin: 0 auto;
+    width: 80%;
+    background-color: var(--main-foreground-color);
+    opacity: 0.9;
+}

@@ -6,12 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trombinoscope</title>
-    <link rel="stylesheet" href="style.css">
+    <link href="/assets/style.css" rel="stylesheet">
 </head>
 
 <body>
     <?php include("_header.php"); ?>
-    <h1>Hello world</h1>
+    <main>
+        <h1>Hello world</h1>
+    </main>
+
     <?php include("_footer.php"); ?>
 </body>
 

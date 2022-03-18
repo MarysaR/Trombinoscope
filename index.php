@@ -12,7 +12,7 @@
 <body>
     <?php include("_header.php"); ?>
     <main>
-        <h1>Welcome</h1>
+        <h1>Welcome Alex</h1>
     </main>
 
     <?php include("_footer.php"); ?>

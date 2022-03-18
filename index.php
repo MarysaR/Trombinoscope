@@ -12,7 +12,7 @@
 <body>
     <?php include("_header.php"); ?>
     <main>
-        <h1>SALUT</h1>
+        <h1>SALUT le monde</h1>
     </main>
 
     <?php include("_footer.php"); ?>

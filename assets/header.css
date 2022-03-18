@@ -1,0 +1,22 @@
+.navbar {
+    background-color: var(--primary-background-color);
+    color: var(--primary-foreground-color);
+    padding: var(--spacing-2);
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+    align-items: center;
+}
+
+.navbar img {
+    border-radius: 50%;
+}
+
+.navbar a {
+    padding: var(--spacing-2);
+
+    text-decoration: none;
+    color: var(--primary-foreground-color)
+}

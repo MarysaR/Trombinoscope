@@ -5,19 +5,20 @@
 
 
      <header>
-          <nav class="navbar">
-               <div class="logo">
-                    <a href="index.html" class="history"><img src="https://fakeimg.pl/100x100/?text=logo" alt="" /></a>
-               </div>
-               <div>
-                    <a href="index.html" class="url">Home </a>
 
-                    <a href="heroes.html" class="url">Trombinoscope</a>
-
-                    <a href="inventaire.html" class="url">People</a>
-                    <a href="contact.html" class="url">Contact</a>
-               </div>
+          <div>
+               <a href="index.html" class="history"><img class="logo" src="https://fakeimg.pl/50x50/?text=logo" alt="" /></a>
+          </div>
+          <nav>
+               <div class="burger"><span></span></div>
+               <ul class="list">
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">Trombinoscope</a></li>
+                    <li><a href="#">Présentation</a></li>
+                    <li><a href="#">Contact</a></li>
+               </ul>
           </nav>
+
      </header>
 
 </body>

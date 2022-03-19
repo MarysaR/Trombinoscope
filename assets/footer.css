@@ -1,5 +1,5 @@
 footer {
-    margin-top: auto;
+    margin-top: 0;
     padding: 1rem;
     background-color: var(--primary-background-color);
 }

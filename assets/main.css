@@ -1,7 +1,18 @@
 main {
-    height: 100vh;
+
     margin: 0 auto;
+    padding: 5rem;
     width: 80%;
-    background-color: var(--main-foreground-color);
-    opacity: 0.9;
+    background: #B1B8A9;
+    box-shadow: 20px 20px 60px #969c90,
+        -20px -20px 60px #ccd4c2;
+    box-shadow: 41px 41px 59px #959b8e,
+        -41px -41px 59px #cdd5c4;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 65ch;
+    color: var(--primary-background-color);
+
 }

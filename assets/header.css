@@ -1,22 +1,156 @@
-.navbar {
+header {
     background-color: var(--primary-background-color);
     color: var(--primary-foreground-color);
     padding: var(--spacing-2);
-
+    position: sticky;
+    z-index: 2;
+    top: 0;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    flex-flow: wrap;
     align-items: center;
 }
 
-.navbar img {
+.logo {
     border-radius: 50%;
 }
 
-.navbar a {
-    padding: var(--spacing-2);
 
+
+.burger {
+    width: 42px;
+    height:
+        0px;
+    cursor: pointer;
+    position: relative;
+}
+
+.burger span {
+    width: 100%;
+    height: var(--spacing-1);
+    background-color: var(--main-background-color);
+    border-radius: 50px;
+    display: inline-block;
+    /* par défaut un span est un inline et ne comprend pas les dimensions */
+    position: absolute;
+    /* pour le positionner par rapport a son parent */
+    top: 50%;
+    /* centrer le span verticalement mais ne centre pas vraiment*/
+    transform: translateY(-50%);
+    /* pour déplacement verticalement le span de la moitié de sa hauteur (50%) et vers le haut (-) */
+
+    transition: background-color 0.3s ease;
+    /* transition quand le background-color:  passe a transparent  */
+}
+
+
+/* je cible ensuite l'avant et l'après de la span pour créer le menu burger. J'aurai pu faire 3 span aussi que j'aurai du positionner l'un au dessus de l'autre */
+.burger span::before,
+.burger span::after {
+    content: '';
+    /* contenu vide qu'on remplira avec des propriété css */
+    position: absolute;
+    border-radius: 50px;
+
+    width: 100%;
+    /* meme largeur que la span qui a la meme largeur que la div parent */
+    height: var(--spacing-1);
+    background-color: var(--main-background-color);
+    transition: transform 0.3s ease;
+}
+
+.burger span::before {
+    /* je cible ensuite le before pour le faire se déplacer vers le avec une valeur negative */
+    transform: translateY(-10px);
+}
+
+.burger span::after {
+    transform: translateY(10px);
+}
+
+/* icone créer maintenant il faut detecter le clic et faire animation : faire disparaitre la barre du milieu et faire faire une rotation a la barre du haut et du bas */
+
+.burger.active span {
+    /* on selectionne le span dans une class burger et class active*/
+    /*opacity: 0; et on veut la faire disparaitre avec opacity, t va aussi faire disparaitre before et after donc on lui met une color transparent*/
+    background-color: transparent;
+}
+
+/*  creation du X avec le before et l'after : un transalteY a 0 pour les faire se position au centre et un rotateZ a 45degré positif et negatif, ajout d'une transition plus haut*/
+
+.burger.active span::before {
+    transform: translateY(0px) rotateZ(45deg);
+}
+
+.burger.active span::after {
+    transform: translateY(0px) rotateZ(-45deg);
+}
+
+
+ul {
+    background: var(--main-background-color);
+    position: absolute;
+    right: 0;
+    top: 100%;
+    z-index: 1000;
+    width: 100%;
+    transform: scaleY(0);
+    transform-origin: center top;
+    transition: all 0.3s ease-in-out;
+}
+
+nav>ul>li {
+    list-style: none;
+    line-height: 60px;
+
+}
+
+
+nav>ul>li>a {
     text-decoration: none;
-    color: var(--primary-foreground-color)
+    color: var(--primary-background-color);
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: block;
+    height: 100%;
+    padding: var(--spacing-1);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+ul.active {
+    transform: scaleY(1);
+    top: 100%;
+
+}
+
+@media screen and (min-width: 768px) {
+    ul {
+        background: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        top: 0;
+        transform: scaleY(1);
+        transform-origin: center top;
+        transition: all 0.3s ease-in-out;
+
+    }
+
+    nav>ul>li>a {
+        text-decoration: none;
+        color: var(--main-background-color);
+        font-weight: bold;
+        font-size: 1rem;
+        display: block;
+        height: 100%;
+        padding: var(--spacing-4);
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    nav>.burger {
+        display: none;
+    }
+
 }

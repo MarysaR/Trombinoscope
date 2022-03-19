@@ -1,18 +1,36 @@
 main {
 
     margin: 0 auto;
-    padding: 5rem;
-    width: 80%;
+    padding: 2rem;
     background: #B1B8A9;
-    box-shadow: 20px 20px 60px #969c90,
-        -20px -20px 60px #ccd4c2;
-    box-shadow: 41px 41px 59px #959b8e,
-        -41px -41px 59px #cdd5c4;
+
 }
 
 .container {
     margin: 0 auto;
     max-width: 65ch;
     color: var(--primary-background-color);
+
+}
+
+@media screen and (min-width: 768px) {
+
+    main {
+
+        margin: 0 auto;
+        padding: 5rem;
+        width: 80%;
+        background: #B1B8A9;
+
+        box-shadow: 41px 41px 59px #959b8e,
+            -41px -41px 59px #cdd5c4;
+    }
+
+    .container {
+        margin: 0 auto;
+        max-width: 65ch;
+        color: var(--primary-background-color);
+
+    }
 
 }

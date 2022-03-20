@@ -12,7 +12,36 @@
 <body>
     <?php include("_header.php"); ?>
     <main>
-        <h1>Bye Alex</h1>
+        <h1>Trombi</h1>
+        <article class="trombi-grid">
+            <div class="grid-span-2">
+                <div class="trombi-flexbox-left">
+                    <img src="https://fakeimg.pl/200/">
+                    <p>text</p>
+                </div>
+
+            </div>
+            <div class="grid-span-2">
+
+                <div class="trombi-flex-right">
+                    <p>text</p>
+                    <img src="https://fakeimg.pl/200/">
+                </div>
+            </div>
+            <div class="grid-span-2">
+                <div class="trombi-flexbox-left"><img src="https://fakeimg.pl/200/">
+                    <p>text</p>
+                </div>
+
+            </div>
+            <div class="grid-span-2">
+
+                <div class="trombi-flex-right">
+                    <p>text</p><img src="https://fakeimg.pl/200/">
+
+                </div>
+            </div>
+        </article>
     </main>
 
     <?php include("_footer.php"); ?>

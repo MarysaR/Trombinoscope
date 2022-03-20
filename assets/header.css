@@ -3,7 +3,6 @@ header {
     color: var(--primary-foreground-color);
     padding: var(--spacing-2);
     position: sticky;
-    z-index: 2;
     top: 0;
     width: 100%;
     display: flex;
@@ -92,11 +91,13 @@ ul {
     position: absolute;
     right: 0;
     top: 100%;
+    /* pour décaller le menu liste déroulant sous le header */
     z-index: 1000;
     width: 100%;
     transform: scaleY(0);
-    transform-origin: center top;
-    transition: all 0.3s ease-in-out;
+    transform-origin: left top;
+    transition: all 0.2s ease-in-out;
+
 }
 
 nav>ul>li {
@@ -132,18 +133,26 @@ ul.active {
         justify-content: right;
         top: 0;
         transform: scaleY(1);
-        transform-origin: center top;
-        transition: all 0.3s ease-in-out;
+        transition: none;
+        width: auto;
 
     }
+
+    ul.active {
+        transform: scaleY(1);
+        top: 0;
+        color: var(--main-background-color);
+
+    }
+
+
 
     nav>ul>li>a {
         text-decoration: none;
         color: var(--main-background-color);
         font-weight: bold;
         font-size: 1rem;
-        display: block;
-        height: 100%;
+
         padding: var(--spacing-4);
         text-align: center;
         text-transform: uppercase;

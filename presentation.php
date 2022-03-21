@@ -11,8 +11,17 @@
 
 <body>
     <?php include("_header.php"); ?>
+
     <main>
-        <h1>Prez</h1>
+        
+        <div class ="logo-flex">
+        <img src="https://fakeimg.pl/200/">
+        </div>
+
+        <div class ="team">
+        <h2 class ="h2prez">Présentation de la team DePhants</h2>  
+        </div>
+
     </main>
 
     <?php include("_footer.php"); ?>

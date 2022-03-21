@@ -12,12 +12,10 @@
 <body>
     <?php include("_header.php"); ?>
     <main>
-<<<<<<< HEAD
-        
-=======
+
     <main id="top">
         <div class="container">
-            <h1>Hello Wordl</h1>
+            <h1>Hello World</h1>
             <p>
                 Ut enim nulla amet commodo pariatur ullamco id ex mollit amet tempor. Reprehenderit enim aliquip laboris qui id labore dolore ipsum. Ut in excepteur deserunt ex aute officia nulla adipisicing irure enim sint ullamco mollit. Amet fugiat occaecat consectetur laborum laboris velit irure pariatur irure quis sint. Mollit eu cillum cupidatat dolor dolore magna nulla amet officia commodo.
 

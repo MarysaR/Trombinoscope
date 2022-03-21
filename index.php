@@ -12,6 +12,9 @@
 <body>
     <?php include("_header.php"); ?>
     <main>
+<<<<<<< HEAD
+        
+=======
     <main id="top">
         <div class="container">
             <h1>Hello Wordl</h1>

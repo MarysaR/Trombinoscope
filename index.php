@@ -12,8 +12,7 @@
 <body>
     <?php include("_header.php"); ?>
     <main>
-        <h1>Bye Alex</h1>
-        <h1>Say Hello !!!</h1>
+        
     </main>
 
     <?php include("_footer.php"); ?>

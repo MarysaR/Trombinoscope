@@ -12,10 +12,11 @@
 <body>
     <?php include("_header.php"); ?>
     <main>
-        <h1>Bye Alex</h1>
+        <h1>Contact</h1>
     </main>
 
     <?php include("_footer.php"); ?>
+    <script src="script.js"></script>
 </body>
 
 </html>

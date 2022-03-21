@@ -1,0 +1,33 @@
+.trombi-grid {
+    max-width: 50vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-4);
+    margin: 0 auto;
+}
+
+.trombi-grid img {
+    border-radius: 50%;
+}
+
+.trombi-grid p {
+    display: inline-block;
+}
+
+.grid-span-2 {
+
+    grid-column: span 2;
+}
+
+.trombi-flex-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.trombi-flexbox-left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}

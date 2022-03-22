@@ -11,7 +11,7 @@
 
 <body>
     <?php include("_header.php"); ?>
-    <main>
+
 
     <main id="top">
         <div class="container">

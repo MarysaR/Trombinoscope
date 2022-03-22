@@ -13,25 +13,26 @@
     <?php include("_header.php"); ?>
     <main>
 
-    <form action="contact.php" method="post">
-        <div class="container">
-            <h2>Contact us/become a member</h2>
-            <hr class="separation"></hr>
-            <div class="form">
+        <form action="trombinoscope.php" method="post">
+            <div class="container">
+                <h2>Contact us/become a member</h2>
+                <hr class="separation">
+                </hr>
+                <div class="form">
 
-                <input type="text" name = "name" placeholder= "Nom">
-                <input type="text" name = "prénom" placeholder= "Prénom">
-                <input type="email" name = "email" placeholder= "@mail">
-                <input type="text" name = " téléphone" placeholder= "Téléphone">
-                <input type="text" name = "objet" placeholder= "Objet">
-                <textarea placeholder= "Your message"></textarea>
-                <button type="submit">Envoyer</button>
+                    <input type="text" name="name" placeholder="Nom" require>
+                    <input type="text" name="prenom" placeholder="Prénom" require>
+                    <input type="email" name="email" placeholder="@mail">
+                    <input type="url" name=" url" placeholder="url de votre photo" require>
+                    <input type="text" name="objet" placeholder="Votre Role" require>
+                    <textarea placeholder="Your message"></textarea>
+                    <button type="submit">Envoyer</button>
 
+                </div>
             </div>
-        </div>
 
-    </form>
-</p>
+        </form>
+        </p>
 
     </main>
 

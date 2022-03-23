@@ -19,7 +19,7 @@
         </hr>
 
 
-        <form action="trombinoscope.php" method="post">
+        <form action="newmember.php" method="post">
             <div class="container">
 
 
@@ -31,7 +31,7 @@
                     <label for="email"></label>
                     <input type="email" name="email" id="email" placeholder="@mail">
                     <label for="linkedin"></label>
-                    <input type="url" name=" url" id="linkedin" placeholder="Linkedin">
+                    <input type="url" name="url" id="linkedin" placeholder="Linkedin">
 
 
                     <label for="profil"></label>
@@ -46,7 +46,7 @@
                     <label for="message"></label>
                     <textarea id="message" name="message" placeholder="Your message"></textarea>
                     <label for="picture">Photo de profil</label>
-                    <input type="file" id="picture" name="picture" accept="image/png, image/jpeg">
+                    <input type="text" id="picture" name="picture">
                     <button type="submit">Envoyer</button>
 
 

@@ -21,8 +21,8 @@ main {
         padding: 5rem;
         width: 80%;
         background: #B1B8A9;
-        box-shadow: 41px 41px 59px #959b8e,
-            -41px -41px 59px #cdd5c4;
+        /* box-shadow: 41px 41px 59px #959b8e,
+            -41px -41px 59px #cdd5c4; */
     }
 
     .container {

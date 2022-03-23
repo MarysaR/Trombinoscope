@@ -3,12 +3,14 @@
 } */
 
 .trombi-grid {
-    max-width: 50vh;
+    max-width: 60vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: var(--spacing-4);
+    /* gap: var(--spacing-4); */
     margin: 0 auto;
 }
+
+
 
 .trombi-grid img {
     border-radius: 50%;
@@ -20,11 +22,12 @@
 .photo-gris img {
     filter: grayscale(1);
     -webkit-filter: grayscale(1);
-    }
-    .photo-gris img:hover {
+}
+
+.photo-gris img:hover {
     filter: grayscale(0);
     -webkit-filter: grayscale(0);
-    }
+}
 
 /* .trombi-grid h3 {
     display: inline-block;
@@ -35,7 +38,7 @@
     text-align: right;
 }*/
 
-/* J'ai créé une div qui inclus Nom, prénom + button */ 
+/* J'ai créé une div qui inclus Nom, prénom + button */
 .fullname-button {
     display: flex;
     flex-direction: column;
@@ -44,51 +47,52 @@
 
 /* ANIMATION BUTTON */
 .button-6 {
-  align-items: center;
-  background-color: #FFFFFF;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: .25rem;
-  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
-  box-sizing: border-box;
-  color: #424240;
-  cursor: pointer;
-  display: inline-flex;
-  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  justify-content: center;
-  line-height: 1.25;
-  margin: 0;
-  min-height: 3rem;
-  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
-  position: relative;
-  text-decoration: none;
-  transition: all 250ms;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  vertical-align: baseline;
-  width: auto;
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #424240;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
 }
 
 .button-6:hover,
 .button-6:focus {
-  border-color: rgba(0, 0, 0, 0.15);
-  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
-  color: #616C5B;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: #616C5B;
 }
 
 .button-6:hover {
-  transform: translateY(-1px);
+    transform: translateY(-1px);
 }
 
 .button-6:active {
-  background-color: #F0F0F1;
-  border-color: rgba(0, 0, 0, 0.15);
-  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
-  color: rgba(0, 0, 0, 0.65);
-  transform: translateY(0);
+    background-color: #F0F0F1;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(0);
 }
+
 /* FIN ANIMATION BUTTON */
 
 .grid-span-2 {
@@ -100,7 +104,8 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-top: 5rem; /* J'ai espacé chaque bloc */
+    margin-top: 5rem;
+    /* J'ai espacé chaque bloc */
 
 }
 
@@ -108,5 +113,6 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-top: 5rem; /* J'ai espacé chaque bloc */
+    margin-top: 5rem;
+    /* J'ai espacé chaque bloc */
 }

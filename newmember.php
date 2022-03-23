@@ -5,9 +5,9 @@ $error = [];
 
 
 if (isset($_POST['prenom'])) {
-    $html =  "<div class='grid-span-2 photo-gris style='display:none;'>";
+    $html =  "<div class='grid-span-2 photo-gris'>";
     $html .= "<div class='trombi-flexbox-left'>";
-    $html .=  "<h3><img src ='" . $_POST['url'] . "'></h3>";
+    $html .=  "<h3><img src ='" . $_POST['avatar'] . "'></h3>";
     $html .= "<div class='fullname-button'>";
     $html .=   "<h3>" . $_POST['prenom'] . " " . $_POST['name'] . "</h3>";
     $html .= "<p>" . $_POST['objet'] . "</p>";

@@ -23,7 +23,10 @@
                     <input type="text" name="name" placeholder="Nom" require>
                     <input type="text" name="prenom" placeholder="Prénom" require>
                     <input type="email" name="email" placeholder="@mail">
-                    <input type="url" name=" url" placeholder="url de votre photo" require>
+                    <label for="avatar">Choose a profile picture:</label>
+
+                    <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg">
+
                     <input type="text" name="objet" placeholder="Votre Role" require>
                     <textarea placeholder="Your message"></textarea>
                     <button type="submit">Envoyer</button>

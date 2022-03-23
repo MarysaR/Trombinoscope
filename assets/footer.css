@@ -1,8 +1,8 @@
 footer {
     margin-top: 0;
     padding: 2rem 0;
-    background-color: var(--primary-background-color);
-    color: var(--main-background-color);
+    background-color: var(--primary-foreground-color);
+    color: var(--primary-background-color);
 
     text-align: center;
     color: #8f8f8f;
@@ -12,7 +12,7 @@ footer {
 
 footer>a {
     text-decoration: none;
-    color: var(--main-background-color);
+    color: var(--primary-background-color);
     padding: var(--spacing-4);
 
 }

@@ -38,7 +38,7 @@ h2 {
 }
 
 .projets {
-    background-color: beige;
+    background-color: var();
     display: flex;
     flex-direction: column;
     justify-content: center;

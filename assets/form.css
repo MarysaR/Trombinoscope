@@ -1,3 +1,17 @@
+h2 {
+    font-size: 18px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.separation {
+    margin: 50px auto;
+    margin-right: auto;
+    margin-left: auto;
+    height: 1px;
+    background-color: black;
+    border: none
+}
 form.container {
     justify-content: space-around;
     display: flex;
@@ -5,25 +19,8 @@ form.container {
     margin : 0 auto;
     padding: 10%;
     flex-direction: column;
-    
-
-    
 }
 
-form h2 {
-    font-size: 18px;
-    margin-bottom: 40px;
-    text-align: center;
-}
-
-form .separation {
-    margin: 100px auto;
-    margin-right: auto;
-    margin-left: auto;
-    height: 2px;
-    background-color: black;
-    border: none
-}
 
 .form { 
     display: flex;
@@ -34,15 +31,17 @@ form .separation {
 }
 
 .form input,
-textarea {
+textarea, select {
     padding: 5px 8px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     border: 2px solid rgb(236, 229, 229);
+    margin-top: 20px;
 }
 
 
 .form textarea {
     height: 150px;
+    
 }
 
 .form button {
@@ -56,5 +55,9 @@ textarea {
 .form button:hover {
     background-color: #E5E5E5 ;
 
+}
+#picture {
+    margin-top: 10px;
+    border: none;
 }
 

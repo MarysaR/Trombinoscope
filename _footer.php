@@ -3,5 +3,7 @@
 
           <a class="footer-link" href="#top"> Haut</a>
 
+          <img src="https://www.instagram.com/cmdesign.fr/?hl=fr" alt="">
+
           <p class="copyright">© 2022 dePhants</p>
      </footer>

@@ -10,7 +10,7 @@ if (isset($_POST['prenom'])) {
     $html .=  "<h3><img src ='" . $_POST['picture'] . "'></h3>";
     $html .= "<div class='fullname-button'>";
     $html .=   "<h3>" . $_POST['prenom'] . " " . $_POST['name'] . "</h3>";
-    $html .= "<p>" . $_POST['objet'] . "</p>";
+    $html .= "<p>" . $_POST['profil'] . "</p>";
     $html .= "<button class='button-6' role='button'>En savoir plus</button>
             </div>
         </div>

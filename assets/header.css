@@ -1,5 +1,5 @@
 header {
-    background-color: var(--primary-background-color);
+    background-color: var(--primary-foreground-color);
     color: var(--primary-foreground-color);
     padding: var(--spacing-2);
     position: sticky;
@@ -88,7 +88,8 @@ header {
 
 
 ul {
-    background: var(--main-background-color);
+    background: var(--primary-foreground-color);
+
     position: absolute;
     right: 0;
     top: 100%;
@@ -117,7 +118,7 @@ nav>ul>li>a {
     height: 100%;
     padding: var(--spacing-1);
     text-align: center;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 ul.active {
@@ -150,13 +151,14 @@ ul.active {
 
     nav>ul>li>a {
         text-decoration: none;
-        color: var(--main-background-color);
-        font-weight: bold;
+        color: var(--primary-background-color);
+        font-weight: 900;
         font-size: 1rem;
 
         padding: var(--spacing-4);
         text-align: center;
-        text-transform: uppercase;
+        /*         text-transform: uppercase;
+ */
     }
 
     nav>.burger {

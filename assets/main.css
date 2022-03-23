@@ -2,14 +2,15 @@ main {
 
     margin: 0 auto;
     padding: 2rem;
-    background: white;
+    background: var(--main-background-color);
     flex-grow: 1;
+    color: var(--main-foreground-color);
 }
 
 .container {
     margin: 0 auto;
     max-width: 65ch;
-    color: var(--primary-background-color);
+    color: var(--main-foreground-color);
 
 }
 
@@ -20,7 +21,7 @@ main {
         margin: 0 auto;
         padding: 5rem;
         width: 80%;
-        background: #B1B8A9;
+        background: var(--main-background-color);
         /* box-shadow: 41px 41px 59px #959b8e,
             -41px -41px 59px #cdd5c4; */
     }
@@ -28,7 +29,7 @@ main {
     .container {
         margin: 0 auto;
         max-width: 65ch;
-        color: var(--primary-background-color);
+        color: var(--main-foreground-color);
 
     }
 

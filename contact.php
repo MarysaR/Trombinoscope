@@ -19,29 +19,23 @@
         </hr>
 
 
-        <form action="contact.php" method="post">
+        <form action="trombinoscope.php" method="post">
             <div class="container">
 
 
                 <div class="form">
                     <label for="nom"></label>
-                    <input type="text" id="name" placeholder="Nom">
-
-                    <label for="prénom"></label>
-                    <input type="text" id="prénom" placeholder="Prénom">
-
+                    <input type="text" name="name" id="name" placeholder="Nom">
+                    <label for="prenom"></label>
+                    <input type="text" name="prenom" id="prenom" placeholder="Prénom">
                     <label for="email"></label>
-                    <input type="email" id="email" placeholder="@mail">
+                    <input type="email" name="email" id="email" placeholder="@mail">
                     <label for="linkedin"></label>
-                    <input type="url" id="linkedin" placeholder="Linkedin">
+                    <input type="url" name=" url" id="linkedin" placeholder="Linkedin">
 
 
-
-
-
-
-                    <label for="profil-select"></label>
-                    <select name="profil" id="profil-select">
+                    <label for="profil"></label>
+                    <select name="profil" id="profil">
                         <option value="ton-profil" disabled selected>Ton profil</option>
                         <option value="back-end">Back-end</option>
                         <option value="front-end">Front-end</option>
@@ -50,7 +44,7 @@
 
 
                     <label for="message"></label>
-                    <textarea id="message" placeholder="Your message"></textarea>
+                    <textarea id="message" name="message" placeholder="Your message"></textarea>
                     <label for="picture">Photo de profil</label>
                     <input type="file" id="picture" name="picture" accept="image/png, image/jpeg">
                     <button type="submit">Envoyer</button>
@@ -59,13 +53,6 @@
 
 
 
-
-
-                    <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg">
-
-                    <input type="text" name="objet" placeholder="Votre Role" require>
-                    <textarea placeholder="Your message"></textarea>
-                    <button type="submit">Envoyer</button>
 
                 </div>
             </div>

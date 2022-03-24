@@ -26,6 +26,10 @@
             <div></div>
             <div></div>
             <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
         </div>
         <h1>Trombinoscope de la TEAM dePhants</h1>
         <article class="trombi-grid">

@@ -1,11 +1,10 @@
 footer {
     margin-top: 0;
-    padding: 2rem 0;
+    padding: 1rem 0;
     background-color: var(--primary-foreground-color);
     color: var(--primary-background-color);
-
     text-align: center;
-    color: #8f8f8f;
+
     font-weight: 400;
     font-size: 1rem;
 }
@@ -18,5 +17,9 @@ footer>a {
 }
 
 footer>p {
+    display: inline-block;
     margin: var(--spacing-4) 0 0 0;
+    text-align: left;
+    background-color: var(--primary-foreground-color);
+
 }

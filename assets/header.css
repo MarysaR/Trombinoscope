@@ -9,16 +9,23 @@ header {
     justify-content: space-between;
     align-items: center;
     z-index: 10;
+    height: 75px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.24);
 }
 
 .logo {
-    border-radius: 50%;
+    color: var(--primary-background-color);
+    font-weight: 900;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding-left: var(--spacing-2);
+
 }
 
 
 
 .burger {
-    width: 42px;
+    width: 50px;
     height:
         0px;
     cursor: pointer;
@@ -28,7 +35,7 @@ header {
 .burger span {
     width: 100%;
     height: var(--spacing-1);
-    background-color: var(--main-background-color);
+    background-color: var(--primary-background-color);
     border-radius: 50px;
     display: inline-block;
     /* par défaut un span est un inline et ne comprend pas les dimensions */
@@ -55,17 +62,22 @@ header {
     width: 100%;
     /* meme largeur que la span qui a la meme largeur que la div parent */
     height: var(--spacing-1);
-    background-color: var(--main-background-color);
+    background-color: var(--primary-background-color);
     transition: transform 0.3s ease;
+
 }
 
 .burger span::before {
     /* je cible ensuite le before pour le faire se déplacer vers le avec une valeur negative */
     transform: translateY(-10px);
+    z-index: 2000;
+
 }
 
 .burger span::after {
     transform: translateY(10px);
+    z-index: 2000;
+
 }
 
 /* icone créer maintenant il faut detecter le clic et faire animation : faire disparaitre la barre du milieu et faire faire une rotation a la barre du haut et du bas */
@@ -74,16 +86,20 @@ header {
     /* on selectionne le span dans une class burger et class active*/
     /*opacity: 0; et on veut la faire disparaitre avec opacity, t va aussi faire disparaitre before et after donc on lui met une color transparent*/
     background-color: transparent;
+    z-index: 2000;
+
 }
 
 /*  creation du X avec le before et l'after : un transalteY a 0 pour les faire se position au centre et un rotateZ a 45degré positif et negatif, ajout d'une transition plus haut*/
 
 .burger.active span::before {
     transform: translateY(0px) rotateZ(45deg);
+    z-index: 2000;
 }
 
 .burger.active span::after {
     transform: translateY(0px) rotateZ(-45deg);
+    z-index: 2000;
 }
 
 
@@ -95,10 +111,11 @@ ul {
     top: 100%;
     /* pour décaller le menu liste déroulant sous le header */
     z-index: 1000;
-    width: 100%;
     transform: scaleY(0);
-    transform-origin: left top;
-    transition: all 0.2s ease-in-out;
+    overflow: hidden;
+    transform-origin: center top;
+    /* transition: all 0.3s ease-in-out; */
+    width: 100%;
 
 }
 
@@ -111,13 +128,33 @@ nav>ul>li {
 
 nav>ul>li>a {
     text-decoration: none;
-    color: var(--primary-background-color);
-    font-weight: bold;
+
+    color: var(--main-foreground-color);
+    font-weight: 900;
     font-size: 1.5rem;
     display: block;
     height: 100%;
     padding: var(--spacing-1);
     text-align: center;
+    /* letter-spacing: var(--spacing-1); */
+
+    /* text-transform: uppercase; */
+}
+
+
+nav>ul>li>a:hover {
+    /*     background-color: var(--primary-background-color);
+ */
+    color: var(--primary-background-color);
+    letter-spacing: var(--spacing-2);
+    transition: all 0.1s ease-in;
+    /* text-transform: uppercase; */
+}
+
+.actif {
+    overflow: hidden;
+
+    color: var(--primary-background-color);
     /* text-transform: uppercase; */
 }
 
@@ -137,7 +174,7 @@ ul.active {
         transform: scaleY(1);
         transition: none;
         width: auto;
-
+        overflow: hidden;
     }
 
     ul.active {
@@ -151,9 +188,7 @@ ul.active {
 
     nav>ul>li>a {
         text-decoration: none;
-        color: var(--primary-background-color);
         font-weight: 900;
-        font-size: 1rem;
 
         padding: var(--spacing-4);
         text-align: center;

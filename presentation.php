@@ -18,16 +18,17 @@
         <img src="https://picsum.photos/200/200">
         </section>
 
+        
         <section class ="team">
-            <h2>Présentation de la team DePhants</h2>
-            <p class ="p-team">Huic Arabia est conserta, ex alio latere Nabataeis contigua; <br> 
+            <div><p class ="p-team">Huic Arabia est conserta, ex alio latere Nabataeis contigua; <br> 
             opima varietate conmerciorum castrisque oppleta validis et castellis, quae ad repellendos gentium vicinarum excursus sollicitudo pervigil veterum per oportunos saltus erexit et cautos.<br> 
             Haec quoque civitates habet inter oppida quaedam ingentes Bostram et Gerasam atque Philadelphiam murorum firmitate cautissimas.<br>
             Hanc provinciae inposito nomine rectoreque adtributo obtemperare legibus nostris Traianus conpulit imperator incolarum tumore saepe contunso cum glorioso marte Mediam urgeret et Parthos.<br>
             Huic Arabia est conserta, ex alio latere Nabataeis contigua; <br> 
             opima varietate conmerciorum castrisque oppleta validis et castellis, quae ad repellendos gentium vicinarum excursus sollicitudo pervigil veterum per oportunos saltus erexit et cautos.<br> 
             Haec quoque civitates habet inter oppida quaedam ingentes Bostram et Gerasam atque Philadelphiam murorum firmitate cautissimas.<br>
-            Hanc provinciae inposito nomine rectoreque adtributo obtemperare legibus nostris Traianus conpulit imperator incolarum tumore saepe contunso cum glorioso marte Mediam urgeret et Parthos.</p><br>
+            Hanc provinciae inposito nomine rectoreque adtributo obtemperare legibus nostris Traianus conpulit imperator incolarum tumore saepe contunso cum glorioso marte Mediam urgeret et Parthos.</p><br></div>
+            <div><h2>Présentation de la team DePhants</h2></div>
         </section>
 
         <section class ="projets">

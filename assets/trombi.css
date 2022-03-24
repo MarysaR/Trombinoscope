@@ -1,6 +1,20 @@
-/* .background-color1 {
-    background-color: red;
-} */
+main {
+    box-sizing: content-box;
+}
+
+a {
+    text-decoration: none;
+    color: #5121d6;
+}
+
+span.hobbies {
+    color: #5121d6;
+}
+
+/* Section background dans le main.css */
+
+
+/* Section présentation wilders */
 
 .trombi-grid {
     max-width: 60vh;
@@ -10,12 +24,10 @@
     margin: 0 auto;
 }
 
-
-
 .trombi-grid img {
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
 }
 
 /* Ici il y a le hover pour les photos */
@@ -29,12 +41,14 @@
     -webkit-filter: grayscale(0);
 }
 
-/* .trombi-grid h3 {
-    display: inline-block;
+/* .city {
+    display: flex;
+    justify-content: left;
 } */
 
-/* J'ai justifié le texte des photos de droite, à droite 
-.justify-text-right {
+
+/* J'ai justifié le texte des photos de droite, à droite */ 
+/*.justify-text-right {
     text-align: right;
 }*/
 
@@ -42,7 +56,16 @@
 .fullname-button {
     display: flex;
     flex-direction: column;
+    background-color: var(--primary-foreground-color);
+    border-radius: 2%;
+    width: 60rem;
     padding: 1rem;
+}
+
+/* Voir pour l'icone, pour que le texte soit sur la même ligne */
+img.icone {
+    width: 25px;
+    height: 25px;
 }
 
 /* ANIMATION BUTTON */
@@ -53,7 +76,7 @@
     border-radius: .25rem;
     box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
     box-sizing: border-box;
-    color: #424240;
+    color: #5121d6;
     cursor: pointer;
     display: inline-flex;
     font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -76,9 +99,9 @@
 
 .button-6:hover,
 .button-6:focus {
-    border-color: rgba(0, 0, 0, 0.15);
-    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
-    color: #616C5B;
+    border-color: red(54, 54, 210, 0.1);
+    box-shadow: rgba(54, 54, 210, 0.1) 0 4px 12px;
+    color: #1C1C1E;
 }
 
 .button-6:hover {

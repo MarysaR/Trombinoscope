@@ -12,17 +12,41 @@
 <body>
     <?php include("_header.php"); ?>
     <main>
-
+        <div class="bg-stripped">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
         <h1>Trombinoscope de la TEAM dePhants</h1>
         <article class="trombi-grid">
 
             <div class="grid-span-2 photo-gris">
                 <div class="trombi-flexbox-left">
-                    <img src="https://media-exp1.licdn.com/dms/image/C5603AQHC3fR0PZemuQ/profile-displayphoto-shrink_400_400/0/1551954922697?e=1653523200&v=beta&t=7KJFUMm9EiQ7uXyr9WYSej_yEohYP6SrdEiaCTAsLVw">
+                    <img
+                        src="./assets/img/jf.jpeg">
                     <div class="fullname-button">
                         <h3>Jean-François Morin</h3>
-                        <p>The Big Boss</p>
-                        <button href="#" class="button-6" role="button">En savoir plus</button>
+                        <p>Développeur Web Full-Stack | Formateur PHP, JS</p></br>
+                        <!--  <div class="city">
+                            <img class="icone" src="./assets/img/icone_localisation.png" alt="icone localisation">
+                            <p>Lille</p></br>
+                        </div> -->
+                        <p><span class="hobbies">Centre d'intérêt :</span> </br>
+                            blabla</p></br>
+                        <div class="city">
+                            <a class="liens" href="https://github.com/Samsuffy0100110">GitHub</a>
+                            <a class="liens" href="https://www.linkedin.com/in/yoann-brambilla-2a13a7234/">LinkedIn</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -31,20 +55,47 @@
                 <div class="trombi-flex-right">
                     <div class="fullname-button">
                         <h3 class="justify-text-right">Johan Ala</h3>
-                        <p>Développeur Web Full-Stack Junior</p>
-                        <button class="button-6" role="button">En savoir plus</button>
+                        <p>Développeur Web Full-Stack Junior</p></br>
+                        <!-- Voir si on met la localisation -->
+                        <!--<div class="city">
+                            <img class="icone" src="./assets/img/icone_localisation.png" alt="icone localisation">
+                            <p>Lille</p></br>
+                        </div>-->
+                        <p><span class="hobbies">Centre d'intérêt :</span> </br>Sport mécanique ou à 2 roues, rando, escalade, la natuuure !</br>
+                        Un esprit libre. Irrévérencieux penseur qui aime croire qu'il bouscule l'ordre établi. 
+                        J'entame une formation de Fullstack Développeur pour le plus grand plaisir des petites startup en manque de finances, 
+                        rapidement j'aiderai à faire un monde meilleur grâce à mes futures applications disruptives.</p></br>
+                        <p>Projet réalisé : Site multipages - Trombinoscope</p>
+                        <div class="city">
+                            <a class="liens" href="https://github.com/trueChoan">GitHub</a>
+                            <a class="liens" href="https://www.linkedin.com/in/johan-ala-5187aa30/">LinkedIn</a>
+                        </div>
+                        <a href="./presentation.php" class="button-6" role="button">Voir le projet réalisé</a>
                     </div>
-                    <img src="https://media-exp1.licdn.com/dms/image/C4E03AQFOlxNGPV7N3A/profile-displayphoto-shrink_400_400/0/1646042804627?e=1653523200&v=beta&t=AF_iIWcW-S-HqwJLC9LqM8-yISYfxLQT8hoxmG7uyXo">
+                    <img
+                        src="./assets/img/johan.jpeg">
                 </div>
             </div>
 
             <div class="grid-span-2 photo-gris">
                 <div class="trombi-flexbox-left">
-                    <img src="https://media-exp1.licdn.com/dms/image/D4E03AQGSx6JjNXFccA/profile-displayphoto-shrink_400_400/0/1645378996632?e=1653523200&v=beta&t=0ubkVPwo9Xz_u_7QDlD9yOfRxFLFPewgWtCE0vP0QPg">
+                    <img
+                        src="./assets/img/herve.jpeg">
                     <div class="fullname-button">
                         <h3>Hervé Rasamimanantsoa</h3>
-                        <p>Développeur Web Full-Stack Junior</p>
-                        <button class="button-6" role="button">En savoir plus</button>
+                        <p>Développeur Web Full-Stack Junior</p></br>
+                        <!-- <div class="city">
+                            <img class="icone" src="./assets/img/icone_localisation.png" alt="icone localisation">
+                            <p>Lille</p></br>
+                        </div> -->
+                        <p><span class="hobbies">Centre d'intérêt :</span> </br>Passionné de basket et de voiture et bien sûr les nouvelles technologies.</br>
+                        Je me suis initié à la programmation il y a de ça 5 ans, maintenant je voudrais en faire mon métier. J'adore l'algorithmie, la résolution de problèmes, et cette quasi liberté que nous donne la programmation.</p></br>
+                        <p>Projet réalisé : Site multipages - Trombinoscope</p>
+                        <div class="city">
+                            <a class="liens" href="https://github.com/Samsuffy0100110">GitHub</a>
+                            <a class="liens" href="https://www.linkedin.com/in/yoann-brambilla-2a13a7234/">LinkedIn</a>
+                        </div>
+                        <a href="./presentation.php" class="button-6" role="button">Voir le projet réalisé</a>
                     </div>
                 </div>
             </div>
@@ -53,20 +104,48 @@
                 <div class="trombi-flex-right">
                     <div class="fullname-button">
                         <h3 class="justify-text-right">Marysa Régent</h3>
-                        <p>Développeuse Web Full-Stack Junior</p>
-                        <button class="button-6" role="button">En savoir plus</button>
+                        <p>Développeuse Web Full-Stack Junior</p></br>
+                        <!-- <div class="city">
+                            <img class="icone" src="./assets/img/icone_localisation.png" alt="icone localisation">
+                            <p>Lille</p></br>
+                        </div> -->
+                        <p><span class="hobbies">Centre d'intérêt :</span> </br>Piano, gaming, lecture, balades.</br>
+                        Friande des langages Back-end, j'aimerais tous les apprendre mais pas insensible au Front-end.</p></br>
+                        <p>Projet réalisé : Site multipages - Trombinoscope</p>
+                        <div class="city">
+                            <a class="liens" href="https://github.com/Samsuffy0100110">GitHub</a>
+                            <a class="liens" href="https://www.linkedin.com/in/yoann-brambilla-2a13a7234/">LinkedIn</a>
+                        </div>
+                        <a href="./presentation.php" class="button-6" role="button">Voir le projet réalisé</a>
                     </div>
-                    <img src="https://media.discordapp.net/attachments/947831240667574272/955455615545770074/Capture_decran_2022-03-21_a_14.18.48.png">
+                    <img
+                        src="./assets/img/marysa.png">
                 </div>
             </div>
 
             <div class="grid-span-2 photo-gris">
                 <div class="trombi-flexbox-left">
-                    <img src="https://scontent.fcdg4-1.fna.fbcdn.net/v/t1.6435-9/95321121_1141650146168555_1101025577978036224_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=174925&_nc_ohc=nulJJzyEUVAAX86avKv&tn=xPTEkl2JOyIbtI4a&_nc_ht=scontent.fcdg4-1.fna&oh=00_AT8a8xucGRt3OYXVbqlokVrY7Z8XocNzVHFC7NkK6851Fw&oe=625ABCE7">
+                    <img
+                        src="./assets/img/melissa.png">
                     <div class="fullname-button">
                         <h3>Mélissa Callejon</h3>
-                        <p>Développeuse Web Full-Stack Junior</p>
-                        <button class="button-6" role="button">En savoir plus</button>
+                        <p>Développeuse Web Full-Stack Junior</p></br>
+                        <!-- <div class="city">
+                            <img class="icone" src="./assets/img/icone_localisation.png" alt="icone localisation">
+                            <p>Lille</p></br>
+                        </div> -->
+                        <p><span class="hobbies">Centre d'intérêt :</span> </br>Passionée par le graphic design, j'aime le yoga, me balader en ville, la Tech House (elrow!),
+                            le motocross, et bien sûr le développement web.</br>
+                            Le développement Web est le sujet essentiel sur lequel mon temps et mes efforts se
+                            concentrent. J'aime résoudre des problèmes de développement Web car ils me permettent
+                            d'apprendre et de grandir à travers la lutte, en construisant mon chemin vers la maîtrise.
+                        </p></br>
+                        <p>Projet réalisé : Site multipages - Trombinoscope</p>
+                        <div class="city">
+                            <a class="liens" href="https://github.com/callejonmelissa">GitHub</a>
+                            <a class="liens" href="https://www.linkedin.com/in/m%C3%A9lissa-callejon-010013187/">LinkedIn</a>
+                        </div>
+                        <a href="./presentation.php" class="button-6" role="button">Voir le projet réalisé</a>
                     </div>
                 </div>
             </div>
@@ -75,20 +154,47 @@
                 <div class="trombi-flex-right">
                     <div class="fullname-button">
                         <h3 class="justify-text-right">Tushar Chowdhury</h3>
-                        <p>Développeur Web Full-Stack Junior</p>
-                        <button class="button-6" role="button">En savoir plus</button>
+                        <p>Développeur Web Full-Stack Junior</p></br>
+                        <!-- <div class="city">
+                            <img class="icone" src="./assets/img/icone_localisation.png" alt="icone localisation">
+                            <p>Lille</p></br>
+                        </div> -->
+                        <p><span class="hobbies">Centre d'intérêt :</span> </br>Custom Mechanical keyboard , photographie.</br>
+                            J'adore régler des soucis informatique et chercher les ressources.</br>
+                            J'aime aussi me prendre la tête sur des problèmes complexes. Le tout en écoutant de la bonne
+                            musique.</p></br>
+                            <p>Projet réalisé : Site multipages - CV</p>
+                        <div class="city">
+                            <a class="liens" href="https://github.com/Samsuffy0100110">GitHub</a>
+                            <a class="liens" href="https://www.linkedin.com/in/yoann-brambilla-2a13a7234/">LinkedIn</a>
+                        </div>
+                        <a href="./presentation.php" class="button-6" role="button">Voir le projet réalisé</a>
                     </div>
-                    <img src="https://media.discordapp.net/attachments/952953034525274112/955497430277840956/jean-francois-morin-formateur-php.png">
+                    <img
+                        src="./assets/img/tushar.png">
                 </div>
             </div>
 
             <div class="grid-span-2 photo-gris">
                 <div class="trombi-flexbox-left">
-                    <img src="https://media.discordapp.net/attachments/947831240667574272/955455729416953936/Capture_decran_2022-03-21_a_14.19.51.png">
+                    <img
+                        src="./assets/img/alex.png">
                     <div class="fullname-button">
                         <h3>Alexandre Guyonnet</h3>
-                        <p>Développeur Web Full-Stack Junior</p>
-                        <button class="button-6" role="button">En savoir plus</button>
+                        <p>Développeur Web Full-Stack Junior</p></br>
+                        <!-- <div class="city">
+                            <img class="icone" src="./assets/img/icone_localisation.png" alt="icone localisation">
+                            <p>Lille</p></br>
+                        </div> -->
+                        <p><span class="hobbies">Centre d'intérêt :</span> </br>Domotique , robotique , borne arcade.</br>
+                        J'ai toujours été passionné par l'informatique plus précisément dans le Hardware, je démontais mes pc tout seul quand j'étais jeune. </br>
+                        J'ai découvert la programmation assez récemment et je m'y suis intéressé et je découvre une autre passion.</p></br>
+                        <p>Projet réalisé : Site multipages - CV</p>
+                        <div class="city">
+                            <a class="liens" href="https://github.com/Samsuffy0100110">GitHub</a>
+                            <a class="liens" href="https://www.linkedin.com/in/yoann-brambilla-2a13a7234/">LinkedIn</a>
+                        </div>
+                        <a href="./presentation.php" class="button-6" role="button">Voir le projet réalisé</a>
                     </div>
                 </div>
             </div>
@@ -97,20 +203,48 @@
                 <div class="trombi-flex-right">
                     <div class="fullname-button">
                         <h3 class="justify-text-right">Kévin Lonsot</h3>
-                        <p>Développeur Web Full-Stack Junior</p>
-                        <button class="button-6" role="button">En savoir plus</button>
+                        <p>Développeur Web Full-Stack Junior</p></br>
+                        <!-- <div class="city">
+                            <img class="icone" src="./assets/img/icone_localisation.png" alt="icone localisation">
+                            <p>Lille</p></br>
+                        </div> -->
+                        <p><span class="hobbies">Centre d'intérêt :</span> </br>Surf, basket, code.</br>
+                            J'adore régler des soucis informatique et chercher les ressources.</br>
+                            J'aime aussi me prendre la tête sur des problèmes complexes. </br>Le tout en écoutant de la bonne
+                            musique.</p></br>
+                            <p>Projet réalisé : Site multipages - CV</p>
+                            <div class="city">
+                            <a class="liens" href="https://github.com/Samsuffy0100110">GitHub</a>
+                            <a class="liens" href="https://www.linkedin.com/in/yoann-brambilla-2a13a7234/">LinkedIn</a>
+                        </div>
+                        <a href="./presentation.php" class="button-6" role="button">Voir le projet réalisé</a>
                     </div>
-                    <img src="https://media.discordapp.net/attachments/955475208209326201/955475717217472512/Kevin_Lansot_45_-_copie.jpg?width=1359&height=2038">
+                    <img
+                        src="./assets/img/kevin.jpg">
                 </div>
             </div>
 
             <div class="grid-span-2 photo-gris">
                 <div class="trombi-flexbox-left">
-                    <img src="https://media.discordapp.net/attachments/952582409973534791/955117858722029588/Capture_decran_2022-03-20_a_15.56.17.png">
+                    <img
+                        src="./assets/img/cyril.png">
                     <div class="fullname-button">
                         <h3>Cyril Fougeroux</h3>
-                        <p>Développeur Web Full-Stack Junior</p>
-                        <button class="button-6" role="button">En savoir plus</button>
+                        <p>Développeur Web Full-Stack Junior</p></br>
+                        <!--  <div class="city">
+                            <img class="icone" src="./assets/img/icone_localisation.png" alt="icone localisation">
+                            <p>Lille</p></br>
+                        </div> -->
+                        <p><span class="hobbies">Centre d'intérêt :</span> </br>Voile légère, Navigation côtière et semi Hauturière, Parapente vols de plaine et de montagne.</br>
+                            J'adore régler des soucis informatique et chercher les ressources.
+                            J'aime aussi me prendre la tête sur des problèmes complexes. Le tout en écoutant de la bonne
+                            musique.</p></br>
+                            <p>Projet réalisé : Plateforme de formation</p>
+                        <div class="city">
+                            <a class="liens" href="https://github.com/Samsuffy0100110">GitHub</a>
+                            <a class="liens" href="https://www.linkedin.com/in/yoann-brambilla-2a13a7234/">LinkedIn</a>
+                        </div>
+                        <a href="./presentation.php" class="button-6" role="button">Voir le projet réalisé</a>
                     </div>
                 </div>
 
@@ -120,20 +254,46 @@
                 <div class="trombi-flex-right">
                     <div class="fullname-button">
                         <h3 class="justify-text-right">Jessica Pêcheux</h3>
-                        <p>Développeuse Web Full-Stack Junior</p>
-                        <button class="button-6" role="button">En savoir plus</button>
+                        <p>Développeuse Web Full-Stack Junior</p></br>
+                        <!--    <div class="city">
+                            <img class="icone" src="./assets/img/icone_localisation.png" alt="icone localisation">
+                            <p>Lille</p></br>
+                        </div> -->
+                        <p><span class="hobbies">Centre d'intérêt :</span> </br>Voyager, le sport, sortir avec mes amis.</br>
+                        D'une nature tenace j'aime résoudre les énigmes. Le développement m'apportera toujours de nouveaux défis a relever répondant à ce besoin de challenge.</p></br>
+                        <p>Projet réalisé : Plateforme de formation</p>
+                        <div class="city">
+                            <a class="liens" href="https://github.com/Samsuffy0100110">GitHub</a>
+                            <a class="liens" href="https://www.linkedin.com/in/yoann-brambilla-2a13a7234/">LinkedIn</a>
+                        </div>
+                        <a href="./presentation.php" class="button-6" role="button">Voir le projet réalisé</a>
                     </div>
-                    <img src="https://media-exp1.licdn.com/dms/image/D4E35AQEeMfDRZdGWjQ/profile-framedphoto-shrink_400_400/0/1647022525466?e=1647864000&v=beta&t=2uL-z72FXlcrAW3tI5QoT7y2Yu5XpJ98dD-SELRlC7A">
+                    <img
+                        src="./assets/img/jessica.jpg">
                 </div>
             </div>
 
             <div class="grid-span-2 photo-gris">
                 <div class="trombi-flexbox-left">
-                    <img src="https://media.discordapp.net/attachments/947831240667574272/955455616183328828/Capture_decran_2022-03-21_a_14.19.07.png">
+                    <img
+                        src="./assets/img/yoann.png">
                     <div class="fullname-button">
                         <h3>Yoann Brambilla</h3>
-                        <p>Développeur Web Full-Stack Junior</p>
-                        <button class="button-6" role="button">En savoir plus</button>
+                        <p>Développeur Web Full-Stack Junior</p></br>
+                        <!--  <div class="city">
+                            <img class="icone" src="./assets/img/icone_localisation.png" alt="icone localisation">
+                            <p>Lille</p></br>
+                        </div> -->
+                        <p><span class="hobbies">Centre d'intérêt :</span> </br>Le golf, la Métal et la lecture.</br>
+                            J'adore régler des soucis informatique et chercher les ressources.
+                            J'aime aussi me prendre la tête sur des problèmes complexes. Le tout en écoutant de la bonne
+                            musique.</p></br>
+                            <p>Projet réalisé : Plateforme de formation</p>
+                        <div class="city">
+                            <a class="liens" href="https://github.com/Samsuffy0100110">GitHub</a>
+                            <a class="liens" href="https://www.linkedin.com/in/yoann-brambilla-2a13a7234/">LinkedIn</a>
+                        </div>
+                        <a href="./presentation.php" class="button-6" role="button">Voir le projet réalisé</a>
                     </div>
                 </div>
 
@@ -141,13 +301,48 @@
 
             <div class="grid-span-2 photo-gris">
                 <div class="trombi-flex-right">
-                    <div class="fullname-button">
-                        <h3 class="justify-text-right">Mickaël Desbiens</h3>
-                        <p>Développeur Web Full-Stack Junior</p>
-                        <button class="button-6" role="button">En savoir plus</button>
+                    <div class="fullname-button justify-text-right">
+                        <h3>Mickaël Desbiens</h3>
+                        <p>Développeur Web Full-Stack Junior</p></br>
+                        <!--  <div class="city">
+                            <img class="icone" src="./assets/img/icone_localisation.png" alt="icone localisation">
+                            <p>Lille</p></br>
+                        </div> -->
+                        <p><span class="hobbies">Centre d'intérêt :</span> </br>Informatique et la nature.</br>
+                            D'une nature tenace j'aime résoudre les énigmes. Le développement m'apportera toujours de
+                            nouveaux défis a relever répondant à ce besoin de challenge.</p></br>
+                            <p>Projet réalisé : Plateforme de formation</p>
+                        <div class="city">
+                            <a class="liens" href="https://github.com/Desbiens-Mickael">GitHub</a>
+                            <a class="liens" href="https://www.linkedin.com/in/mickael-desbiens/">LinkedIn</a>
+                        </div>
+                        <a href="./presentation.php" class="button-6" role="button">Voir le projet réalisé</a>
                     </div>
-                    <img src="https://media.discordapp.net/attachments/947831240667574272/955456090689110066/Capture_decran_2022-03-21_a_14.21.15.png">
+                    <img
+                        src="./assets/img/micka.png">
                 </div>
+            </div>
+
+            <div class="grid-span-2 photo-gris">
+                <div class="trombi-flexbox-left">
+                    <img
+                        src="https://media-exp1.licdn.com/dms/image/C5603AQGvJeTrV64qsg/profile-displayphoto-shrink_800_800/0/1626496188444?e=2147483647&v=beta&t=_0eD26AYUhK3KtfHuHlWWNnOmjbkkct0y5IjZ6cOIxM">
+                    <div class="fullname-button">
+                        <h3>Benoît Vandanjon</h3>
+                        <p>Développeur Web Full-Stack Junior</p></br>
+                        <!--  <div class="city">
+                            <img class="icone" src="./assets/img/icone_localisation.png" alt="icone localisation">
+                            <p>Lille</p></br>
+                        </div> -->
+                        <p><span class="hobbies">Centre d'intérêt :</span> </br>Jardinage, le dév et un secret.</br>
+                        Step 1 : The profit, Step 2 : no need.</p></br>
+                        <div class="city">
+                            <a class="liens" href="https://github.com/Vandanjon">GitHub</a>
+                            <a class="liens" href="https://www.linkedin.com/in/benoitvandanjon/">LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
             <?php

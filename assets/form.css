@@ -12,17 +12,27 @@ h2 {
     background-color: black;
     border: none
 }
+
 form.container {
     justify-content: space-around;
     display: flex;
     width: 80%;
-    margin : 0 auto;
+    margin: 0 auto;
     padding: 10%;
     flex-direction: column;
 }
 
+@media screen and (min-width: 768px) {
 
-.form { 
+
+    .form_flex {
+        display: flex;
+        gap: 5rem;
+
+    }
+}
+
+.form {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -31,7 +41,8 @@ form.container {
 }
 
 .form input,
-textarea, select {
+textarea,
+select {
     padding: 5px 8px;
     margin-bottom: 15px;
     border: 2px solid rgb(236, 229, 229);
@@ -41,7 +52,7 @@ textarea, select {
 
 .form textarea {
     height: 150px;
-    
+
 }
 
 .form button {
@@ -49,15 +60,16 @@ textarea, select {
     padding: 5px 10px;
     width: 30%;
     margin: 0 50%;
-    cursor: pointer; 
-    
-}
-.form button:hover {
-    background-color: #E5E5E5 ;
+    cursor: pointer;
 
 }
+
+.form button:hover {
+    background-color: #E5E5E5;
+
+}
+
 #picture {
     margin-top: 10px;
     border: none;
 }
-

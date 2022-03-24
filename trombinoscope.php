@@ -30,6 +30,40 @@
         <h1>Trombinoscope de la TEAM dePhants</h1>
         <article class="trombi-grid">
 
+            <?php
+            /* $team = [
+    ["wilder1", "name1", "role1", "image1"],
+    ["wilder2", "name2", "role2", "image2"],
+    ["wilder1", "name1", "role1", "image1"],
+];
+foreach  ($team as $member): ?> */
+
+            if (($handle = fopen("team.csv", "r")) !== FALSE) :
+
+            ?>
+
+                <?php
+                $i = 0;
+                while (($member = fgetcsv($handle, null, ",")) !== FALSE) :
+                    $class = $i % 2 ? "trombi-flexbox-left" : "trombi-flexboi-right";
+                    if ($i > 0) :  ?>
+
+                        <div class="grid-span-2 photo-gris">
+                            <div class="trombi-flexbox-left">
+                                <img src="<?= $member[3] ?>">
+                                <div class="fullname-button">
+                                    <h3><?= $member[0] ?></h3>
+                                    <p><?= $member[2] ?></p>
+                                    <button href="#" class="button-6" role="button">En savoir plus</button>
+                                </div>
+                            </div>
+                        </div>
+                <?php endif;
+                    $i++;
+                endwhile;
+                fclose($handle); ?>
+            <?php endif; ?>
+
             <div class="grid-span-2 photo-gris">
                 <div class="trombi-flexbox-left">
                     <img

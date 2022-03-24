@@ -17,7 +17,7 @@ span.hobbies {
 /* Section présentation wilders */
 
 .trombi-grid {
-    max-width: 60vh;
+    max-width: 80vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
     /* gap: var(--spacing-4); */
@@ -28,6 +28,7 @@ span.hobbies {
     border-radius: 50%;
     width: 300px;
     height: 300px;
+    margin: 2rem;
 }
 
 /* Ici il y a le hover pour les photos */
@@ -47,7 +48,7 @@ span.hobbies {
 } */
 
 
-/* J'ai justifié le texte des photos de droite, à droite */ 
+/* J'ai justifié le texte des photos de droite, à droite */
 /*.justify-text-right {
     text-align: right;
 }*/

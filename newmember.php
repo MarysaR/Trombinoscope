@@ -5,7 +5,19 @@ $error = [];
 
 
 if (isset($_POST['prenom'])) {
-    $html =  "<div class='grid-span-2 photo-gris'>";
+
+    $fp = fopen('team.csv', 'w');
+    $fields = [
+        $_POST["name"],
+        $_POST["prenom"],
+        $_POST[""],
+        $_POST[""],
+        $_POST[""],
+        $_POST[""],
+    ];
+    fputcsv($fp, $fields, ";");
+    fclose($fp);
+    /*     $html =  "<div class='grid-span-2 photo-gris'>";
     $html .= "<div class='trombi-flexbox-left'>";
     $html .=  "<h3><img src ='" . $_POST['picture'] . "'></h3>";
     $html .= "<div class='fullname-button'>";
@@ -16,8 +28,8 @@ if (isset($_POST['prenom'])) {
         </div>
     
     </div> ";
-    echo $html;
+    echo $html; */
 } else {
-    $error[] = "<i>veuillez remplir le formulaire</i>";
-    echo $error[0];
+    /*  $error[] = "<i>veuillez remplir le formulaire</i>";
+    echo $error[0]; */
 };

@@ -1,8 +1,8 @@
 main {
-
+    position: relative;
     margin: 0 auto;
     padding: 2rem;
-    background: var(--main-background-color);
+    /* background: var(--main-background-color); */
     flex-grow: 1;
     color: var(--main-foreground-color);
 }
@@ -21,7 +21,7 @@ main {
         margin: 0 auto;
         padding: 5rem;
         width: 80%;
-        background: var(--main-background-color);
+        /* background: var(--main-background-color); */
         /* box-shadow: 41px 41px 59px #959b8e,
             -41px -41px 59px #cdd5c4; */
     }
@@ -29,8 +29,31 @@ main {
     .container {
         margin: 0 auto;
         max-width: 65ch;
-        color: var(--main-foreground-color);
+   /*      color: var(--main-foreground-color); */
 
     }
 
+}
+
+.bg-stripped {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* opacity: .2; */
+    z-index: -1;
+}
+
+.bg-stripped div:nth-child(3n+1) {
+    background-color: var(--main-background-color);
+    min-height: 500px;
+}
+.bg-stripped div:nth-child(3n+2) {
+    background-color: var(--main-foreground-color);
+    min-height: 400px;
+}
+.bg-stripped div:nth-child(3n+3) {
+    background-color: var(--primary-background-color);
+    min-height: 400px;
 }

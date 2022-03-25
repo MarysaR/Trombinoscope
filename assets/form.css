@@ -5,6 +5,7 @@ div>h2 {
     margin: 0 auto;
     display: inline-block;
     padding: 1rem;
+    text-transform: none;
 }
 
 .title {
@@ -19,8 +20,8 @@ div>h2 {
     margin: 50px auto;
     margin-right: auto;
     margin-left: auto;
-    height: 1px;
-    background-color: black;
+    height: 2px;
+    background-color: var(--primary-background-color);
     border: none
 }
 
@@ -77,10 +78,10 @@ label {
     border: 0rem;
     display: inline;
     padding: 5px 10px;
-    width: 30%;
+    width: 50%;
     margin: 0 auto;
     cursor: pointer;
-    background-color: var(--primary-background-color);
+    /* background-color: var(--primary-background-color); */
 
 }
 

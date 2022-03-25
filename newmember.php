@@ -37,7 +37,7 @@ if (isset($_POST)) {
   fputcsv($fp, $fields, ";");
   fclose($fp);
 
-  header("Location: trombinoscope.php");
+  header("Location: index.php");
 } else {
   $error[] = "<i>veuillez remplir le formulaire</i>";
   echo $error[0];

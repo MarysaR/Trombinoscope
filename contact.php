@@ -13,8 +13,9 @@
     <?php include("_header.php"); ?>
     <main>
 
-
-        <h2>Contactez-nous/devenez membre</h2>
+        <div class="title">
+            <h2>Contactez-nous/devenez membre</h2>
+        </div>
         <hr class="separation">
         </hr>
 

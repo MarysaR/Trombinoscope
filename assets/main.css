@@ -9,7 +9,7 @@ main {
 
 .container {
     margin: 0 auto;
-    max-width: 65ch;
+    /* max-width: 65ch; */
     color: var(--main-foreground-color);
 
 }
@@ -20,7 +20,7 @@ main {
 
         margin: 0 auto;
         padding: 5rem;
-        width: 80%;
+        /* width: 80%; */
         /* background: var(--main-background-color); */
         /* box-shadow: 41px 41px 59px #959b8e,
             -41px -41px 59px #cdd5c4; */
@@ -28,8 +28,8 @@ main {
 
     .container {
         margin: 0 auto;
-        max-width: 65ch;
-   /*      color: var(--main-foreground-color); */
+        /* max-width: 65ch; */
+        /*      color: var(--main-foreground-color); */
 
     }
 
@@ -49,10 +49,12 @@ main {
     background-color: var(--main-background-color);
     min-height: 500px;
 }
+
 .bg-stripped div:nth-child(3n+2) {
     background-color: var(--main-foreground-color);
     min-height: 400px;
 }
+
 .bg-stripped div:nth-child(3n+3) {
     background-color: var(--primary-background-color);
     min-height: 400px;

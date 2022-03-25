@@ -11,22 +11,29 @@
 
 <body>
     <?php include("_header.php"); ?>
+
+    <div class="bg-stripped">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div class="bg-responsive"></div>
+        <div class="bg-responsive"></div>
+        <div class="bg-responsive"></div>
+        <div class="bg-responsive"></div>
+        <div class="bg-responsive"></div>
+        <div class="bg-responsive"></div>
+    </div>
     <main>
-        <div class="bg-stripped">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
         <h1>Trombinoscope de la TEAM dePhants</h1>
         <article class="trombi-grid">
 
@@ -66,8 +73,7 @@ foreach  ($team as $member): ?> */
 
             <div class="grid-span-2 photo-gris">
                 <div class="trombi-flexbox-left">
-                    <img
-                        src="./assets/img/jf.jpeg">
+                    <img src="./assets/img/jf.jpeg">
                     <div class="fullname-button">
                         <h3>Jean-François Morin</h3>
                         <p>Développeur Web Full-Stack | Formateur PHP, JS</p></br>
@@ -96,9 +102,9 @@ foreach  ($team as $member): ?> */
                             <p>Lille</p></br>
                         </div>-->
                         <p><span class="hobbies">Centre d'intérêt :</span> </br>Sport mécanique ou à 2 roues, rando, escalade, la natuuure !</br>
-                        Un esprit libre. Irrévérencieux penseur qui aime croire qu'il bouscule l'ordre établi. 
-                        J'entame une formation de Fullstack Développeur pour le plus grand plaisir des petites startup en manque de finances, 
-                        rapidement j'aiderai à faire un monde meilleur grâce à mes futures applications disruptives.</p></br>
+                            Un esprit libre. Irrévérencieux penseur qui aime croire qu'il bouscule l'ordre établi.
+                            J'entame une formation de Fullstack Développeur pour le plus grand plaisir des petites startup en manque de finances,
+                            rapidement j'aiderai à faire un monde meilleur grâce à mes futures applications disruptives.</p></br>
                         <p>Projet réalisé : Site multipages - Trombinoscope</p>
                         <div class="city">
                             <a class="liens" href="https://github.com/trueChoan">GitHub</a>
@@ -106,15 +112,13 @@ foreach  ($team as $member): ?> */
                         </div>
                         <a href="./presentation.php" class="button-6" role="button">Voir le projet réalisé</a>
                     </div>
-                    <img
-                        src="./assets/img/johan.jpeg">
+                    <img src="./assets/img/johan.jpeg">
                 </div>
             </div>
 
             <div class="grid-span-2 photo-gris">
                 <div class="trombi-flexbox-left">
-                    <img
-                        src="./assets/img/herve.jpeg">
+                    <img src="./assets/img/herve.jpeg">
                     <div class="fullname-button">
                         <h3>Hervé Rasamimanantsoa</h3>
                         <p>Développeur Web Full-Stack Junior</p></br>
@@ -123,7 +127,7 @@ foreach  ($team as $member): ?> */
                             <p>Lille</p></br>
                         </div> -->
                         <p><span class="hobbies">Centre d'intérêt :</span> </br>Passionné de basket et de voiture et bien sûr les nouvelles technologies.</br>
-                        Je me suis initié à la programmation il y a de ça 5 ans, maintenant je voudrais en faire mon métier. J'adore l'algorithmie, la résolution de problèmes, et cette quasi liberté que nous donne la programmation.</p></br>
+                            Je me suis initié à la programmation il y a de ça 5 ans, maintenant je voudrais en faire mon métier. J'adore l'algorithmie, la résolution de problèmes, et cette quasi liberté que nous donne la programmation.</p></br>
                         <p>Projet réalisé : Site multipages - Trombinoscope</p>
                         <div class="city">
                             <a class="liens" href="https://github.com/Samsuffy0100110">GitHub</a>
@@ -144,7 +148,7 @@ foreach  ($team as $member): ?> */
                             <p>Lille</p></br>
                         </div> -->
                         <p><span class="hobbies">Centre d'intérêt :</span> </br>Piano, gaming, lecture, balades.</br>
-                        Friande des langages Back-end, j'aimerais tous les apprendre mais pas insensible au Front-end.</p></br>
+                            Friande des langages Back-end, j'aimerais tous les apprendre mais pas insensible au Front-end.</p></br>
                         <p>Projet réalisé : Site multipages - Trombinoscope</p>
                         <div class="city">
                             <a class="liens" href="https://github.com/Samsuffy0100110">GitHub</a>
@@ -152,15 +156,13 @@ foreach  ($team as $member): ?> */
                         </div>
                         <a href="./presentation.php" class="button-6" role="button">Voir le projet réalisé</a>
                     </div>
-                    <img
-                        src="./assets/img/marysa.png">
+                    <img src="./assets/img/marysa.png">
                 </div>
             </div>
 
             <div class="grid-span-2 photo-gris">
                 <div class="trombi-flexbox-left">
-                    <img
-                        src="./assets/img/melissa.png">
+                    <img src="./assets/img/melissa.png">
                     <div class="fullname-button">
                         <h3>Mélissa Callejon</h3>
                         <p>Développeuse Web Full-Stack Junior</p></br>
@@ -197,22 +199,20 @@ foreach  ($team as $member): ?> */
                             J'adore régler des soucis informatique et chercher les ressources.</br>
                             J'aime aussi me prendre la tête sur des problèmes complexes. Le tout en écoutant de la bonne
                             musique.</p></br>
-                            <p>Projet réalisé : Site multipages - CV</p>
+                        <p>Projet réalisé : Site multipages - CV</p>
                         <div class="city">
                             <a class="liens" href="https://github.com/Samsuffy0100110">GitHub</a>
                             <a class="liens" href="https://www.linkedin.com/in/yoann-brambilla-2a13a7234/">LinkedIn</a>
                         </div>
                         <a href="./presentation.php" class="button-6" role="button">Voir le projet réalisé</a>
                     </div>
-                    <img
-                        src="./assets/img/tushar.png">
+                    <img src="./assets/img/tushar.png">
                 </div>
             </div>
 
             <div class="grid-span-2 photo-gris">
                 <div class="trombi-flexbox-left">
-                    <img
-                        src="./assets/img/alex.png">
+                    <img src="./assets/img/alex.png">
                     <div class="fullname-button">
                         <h3>Alexandre Guyonnet</h3>
                         <p>Développeur Web Full-Stack Junior</p></br>
@@ -221,8 +221,8 @@ foreach  ($team as $member): ?> */
                             <p>Lille</p></br>
                         </div> -->
                         <p><span class="hobbies">Centre d'intérêt :</span> </br>Domotique , robotique , borne arcade.</br>
-                        J'ai toujours été passionné par l'informatique plus précisément dans le Hardware, je démontais mes pc tout seul quand j'étais jeune. </br>
-                        J'ai découvert la programmation assez récemment et je m'y suis intéressé et je découvre une autre passion.</p></br>
+                            J'ai toujours été passionné par l'informatique plus précisément dans le Hardware, je démontais mes pc tout seul quand j'étais jeune. </br>
+                            J'ai découvert la programmation assez récemment et je m'y suis intéressé et je découvre une autre passion.</p></br>
                         <p>Projet réalisé : Site multipages - CV</p>
                         <div class="city">
                             <a class="liens" href="https://github.com/Samsuffy0100110">GitHub</a>
@@ -246,22 +246,20 @@ foreach  ($team as $member): ?> */
                             J'adore régler des soucis informatique et chercher les ressources.</br>
                             J'aime aussi me prendre la tête sur des problèmes complexes. </br>Le tout en écoutant de la bonne
                             musique.</p></br>
-                            <p>Projet réalisé : Site multipages - CV</p>
-                            <div class="city">
+                        <p>Projet réalisé : Site multipages - CV</p>
+                        <div class="city">
                             <a class="liens" href="https://github.com/Samsuffy0100110">GitHub</a>
                             <a class="liens" href="https://www.linkedin.com/in/yoann-brambilla-2a13a7234/">LinkedIn</a>
                         </div>
                         <a href="./presentation.php" class="button-6" role="button">Voir le projet réalisé</a>
                     </div>
-                    <img
-                        src="./assets/img/kevin.jpg">
+                    <img src="./assets/img/kevin.jpg">
                 </div>
             </div>
 
             <div class="grid-span-2 photo-gris">
                 <div class="trombi-flexbox-left">
-                    <img
-                        src="./assets/img/cyril.png">
+                    <img src="./assets/img/cyril.png">
                     <div class="fullname-button">
                         <h3>Cyril Fougeroux</h3>
                         <p>Développeur Web Full-Stack Junior</p></br>
@@ -273,7 +271,7 @@ foreach  ($team as $member): ?> */
                             J'adore régler des soucis informatique et chercher les ressources.
                             J'aime aussi me prendre la tête sur des problèmes complexes. Le tout en écoutant de la bonne
                             musique.</p></br>
-                            <p>Projet réalisé : Plateforme de formation</p>
+                        <p>Projet réalisé : Plateforme de formation</p>
                         <div class="city">
                             <a class="liens" href="https://github.com/Samsuffy0100110">GitHub</a>
                             <a class="liens" href="https://www.linkedin.com/in/yoann-brambilla-2a13a7234/">LinkedIn</a>
@@ -294,7 +292,7 @@ foreach  ($team as $member): ?> */
                             <p>Lille</p></br>
                         </div> -->
                         <p><span class="hobbies">Centre d'intérêt :</span> </br>Voyager, le sport, sortir avec mes amis.</br>
-                        D'une nature tenace j'aime résoudre les énigmes. Le développement m'apportera toujours de nouveaux défis a relever répondant à ce besoin de challenge.</p></br>
+                            D'une nature tenace j'aime résoudre les énigmes. Le développement m'apportera toujours de nouveaux défis a relever répondant à ce besoin de challenge.</p></br>
                         <p>Projet réalisé : Plateforme de formation</p>
                         <div class="city">
                             <a class="liens" href="https://github.com/Samsuffy0100110">GitHub</a>
@@ -302,15 +300,13 @@ foreach  ($team as $member): ?> */
                         </div>
                         <a href="./presentation.php" class="button-6" role="button">Voir le projet réalisé</a>
                     </div>
-                    <img
-                        src="./assets/img/jessica.jpg">
+                    <img src="./assets/img/jessica.jpg">
                 </div>
             </div>
 
             <div class="grid-span-2 photo-gris">
                 <div class="trombi-flexbox-left">
-                    <img
-                        src="./assets/img/yoann.png">
+                    <img src="./assets/img/yoann.png">
                     <div class="fullname-button">
                         <h3>Yoann Brambilla</h3>
                         <p>Développeur Web Full-Stack Junior</p></br>
@@ -322,7 +318,7 @@ foreach  ($team as $member): ?> */
                             J'adore régler des soucis informatique et chercher les ressources.
                             J'aime aussi me prendre la tête sur des problèmes complexes. Le tout en écoutant de la bonne
                             musique.</p></br>
-                            <p>Projet réalisé : Plateforme de formation</p>
+                        <p>Projet réalisé : Plateforme de formation</p>
                         <div class="city">
                             <a class="liens" href="https://github.com/Samsuffy0100110">GitHub</a>
                             <a class="liens" href="https://www.linkedin.com/in/yoann-brambilla-2a13a7234/">LinkedIn</a>
@@ -345,22 +341,20 @@ foreach  ($team as $member): ?> */
                         <p><span class="hobbies">Centre d'intérêt :</span> </br>Informatique et la nature.</br>
                             D'une nature tenace j'aime résoudre les énigmes. Le développement m'apportera toujours de
                             nouveaux défis a relever répondant à ce besoin de challenge.</p></br>
-                            <p>Projet réalisé : Plateforme de formation</p>
+                        <p>Projet réalisé : Plateforme de formation</p>
                         <div class="city">
                             <a class="liens" href="https://github.com/Desbiens-Mickael">GitHub</a>
                             <a class="liens" href="https://www.linkedin.com/in/mickael-desbiens/">LinkedIn</a>
                         </div>
                         <a href="./presentation.php" class="button-6" role="button">Voir le projet réalisé</a>
                     </div>
-                    <img
-                        src="./assets/img/micka.png">
+                    <img src="./assets/img/micka.png">
                 </div>
             </div>
 
             <div class="grid-span-2 photo-gris">
                 <div class="trombi-flexbox-left">
-                    <img
-                        src="https://media-exp1.licdn.com/dms/image/C5603AQGvJeTrV64qsg/profile-displayphoto-shrink_800_800/0/1626496188444?e=2147483647&v=beta&t=_0eD26AYUhK3KtfHuHlWWNnOmjbkkct0y5IjZ6cOIxM">
+                    <img src="https://media-exp1.licdn.com/dms/image/C5603AQGvJeTrV64qsg/profile-displayphoto-shrink_800_800/0/1626496188444?e=2147483647&v=beta&t=_0eD26AYUhK3KtfHuHlWWNnOmjbkkct0y5IjZ6cOIxM">
                     <div class="fullname-button">
                         <h3>Benoît Vandanjon</h3>
                         <p>Développeur Web Full-Stack Junior</p></br>
@@ -369,7 +363,7 @@ foreach  ($team as $member): ?> */
                             <p>Lille</p></br>
                         </div> -->
                         <p><span class="hobbies">Centre d'intérêt :</span> </br>Jardinage, le dév et un secret.</br>
-                        Step 1 : The profit, Step 2 : no need.</p></br>
+                            Step 1 : The profit, Step 2 : no need.</p></br>
                         <div class="city">
                             <a class="liens" href="https://github.com/Vandanjon">GitHub</a>
                             <a class="liens" href="https://www.linkedin.com/in/benoitvandanjon/">LinkedIn</a>

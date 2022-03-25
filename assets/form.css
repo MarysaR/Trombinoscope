@@ -18,8 +18,8 @@ div>h2 {
 
 .separation {
     margin: 50px auto;
-    margin-right: auto;
-    margin-left: auto;
+    width: 50%;
+    min-width: 500px;
     height: 2px;
     background-color: var(--primary-background-color);
     border: none

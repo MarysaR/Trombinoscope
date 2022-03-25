@@ -1,1 +1,13 @@
-prenom;nom;profil;picture;message;project;email;linkedin;;;;
+prenom;nom;profil;picture;centre d'interet;message;github;linkedin;Projet realise;;
+Jean Francois;Morin;Développeur Web Full-Stack | Formateur PHP, JS;./assets/img/jf.jpeg;Gardening, cooking & playing music !!!;Ma passion pour le dev est renouvelée chaque jour par la recherche permanente d'amélioration et de découvertes. Un terrain de jeu sans limite;https://github.com/jfm-wcs;https://www.linkedin.com/in/jf-morin/;all;;
+Johan;Ala;Développeur Web Full-Stack Junior;./assets/img/johan.jpeg;"Sport mécanique ou à 2 roues, rando,
+                            escalade, la natuuure !";" Un esprit libre. Irrévérencieux penseur qui aime croire qu'il bouscule l'ordre établi.
+                            J'entame une formation de Fullstack Développeur pour le plus grand plaisir des petites
+                            startup en manque de finances,
+                            rapidement j'aiderai à faire un monde meilleur grâce à mes futures applications disruptives.";https://github.com/trueChoan;https://www.linkedin.com/in/johan-ala-5187aa30/;Projet réalisé : Site multipages - Trombinoscope;;
+Hervé;Rasamimanantsoa;Développeur Web Full-Stack Junior;./assets/img/herve.jpeg;"Passionné de basket et de voiture et
+                            bien sûr les nouvelles technologies.";"Je me suis initié à la programmation il y a de ça 5 ans, maintenant je voudrais en faire mon
+                            métier. J'adore l'algorithmie, la résolution de problèmes, et cette quasi liberté que nous
+                            donne la programmation.";https://github.com/Samsuffy0100110;https://www.linkedin.com/in/yoann-brambilla-2a13a7234/;Projet réalisé : Site multipages - Trombinoscope;;
+Marysa;Régent;Développeuse Web Full-Stack Junior;./assets/img/marysa.png;Piano, gaming, lecture, balades.;"Friande des langages Back-end, j'aimerais tous les apprendre mais pas insensible au
+                            Front-end.";https://github.com/Samsuffy0100110;https://www.linkedin.com/in/yoann-brambilla-2a13a7234;;;JOJO;LARICOT;back-end;https://fakeimg.pl/250x100/;SALUT

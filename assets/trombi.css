@@ -17,7 +17,7 @@ span.hobbies {
 /* Section présentation wilders */
 
 .trombi-grid {
-    max-width: 80%;
+    min-width: 60%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     /* gap: var(--spacing-4); */
@@ -26,9 +26,15 @@ span.hobbies {
 
 .trombi-grid img {
     border-radius: 50%;
-    width: 300px;
-    height: 300px;
+    width: 30%;
+    height: 30%;
+    min-width: 175px;
     margin: 2rem;
+    max-width: 300px;
+}
+
+.bg-responsive {
+    display: none;
 }
 
 /* Ici il y a le hover pour les photos */
@@ -52,7 +58,7 @@ span.hobbies {
 
 @media screen and (max-width: 768px) {
     .grid-span-2 {
-/*         grid-column: span 1;
+        /*         grid-column: span 1;
         grid-template-columns: 1fr; */
         display: flex;
         flex-direction: column;
@@ -68,9 +74,10 @@ span.hobbies {
     display: flex;
     flex-direction: column;
     background-color: var(--primary-foreground-color);
-    border-radius: 2%;
-    width: 100%;
+    border-radius: 12px;
+    width: 60%;
     padding: 1rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .button-flex {
@@ -156,3 +163,21 @@ img.icone {
     /* J'ai espacé chaque bloc */
 }
 
+@media screen and (max-width: 900px) {
+
+    .trombi-flexbox-left {
+        flex-direction: column;
+    }
+
+    .trombi-flex-right {
+        flex-direction: column-reverse;
+    }
+
+    .fullname-button {
+        width: 100%;
+    }
+
+    .bg-responsive {
+        display: block;
+    }
+}

@@ -11,22 +11,29 @@
 
 <body>
     <?php include("_header.php"); ?>
+
+    <div class="bg-stripped">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div class="bg-responsive"></div>
+        <div class="bg-responsive"></div>
+        <div class="bg-responsive"></div>
+        <div class="bg-responsive"></div>
+        <div class="bg-responsive"></div>
+        <div class="bg-responsive"></div>
+    </div>
     <main>
-        <div class="bg-stripped">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
         <h1>Trombinoscope de la TEAM dePhants</h1>
         <article class="trombi-grid">
 
@@ -42,23 +49,23 @@ foreach  ($team as $member): ?> */
 
             ?>
 
-            <?php
+                <?php
                 $i = 0;
                 while (($member = fgetcsv($handle, null, ",")) !== FALSE) :
                     $class = $i % 2 ? "trombi-flexbox-left" : "trombi-flexboi-right";
                     if ($i > 0) :  ?>
 
-            <div class="grid-span-2 photo-gris">
-                <div class="trombi-flexbox-left">
-                    <img src="<?= $member[3] ?>">
-                    <div class="fullname-button">
-                        <h3><?= $member[0] ?></h3>
-                        <p><?= $member[2] ?></p>
-                        <button href="#" class="button-6" role="button">En savoir plus</button>
-                    </div>
-                </div>
-            </div>
-            <?php endif;
+                        <div class="grid-span-2 photo-gris">
+                            <div class="trombi-flexbox-left">
+                                <img src="<?= $member[3] ?>">
+                                <div class="fullname-button">
+                                    <h3><?= $member[0] ?></h3>
+                                    <p><?= $member[2] ?></p>
+                                    <button href="#" class="button-6" role="button">En savoir plus</button>
+                                </div>
+                            </div>
+                        </div>
+                <?php endif;
                     $i++;
                 endwhile;
                 fclose($handle); ?>
@@ -75,7 +82,7 @@ foreach  ($team as $member): ?> */
                             <p>Lille</p></br>
                         </div> -->
                         <p><span class="hobbies">Centre d'intérêt :</br></span>Gardening, cooking & playing music !!!</br>
-                        Ma passion pour le dev est renouvelée chaque jour par la recherche permanente d'amélioration et de découvertes. Un terrain de jeu sans limite</p></br>
+                            Ma passion pour le dev est renouvelée chaque jour par la recherche permanente d'amélioration et de découvertes. Un terrain de jeu sans limite</p></br>
                         <div class="city">
                             <a class="liens" href="https://github.com/jfm-wcs">GitHub</a>
                             <a class="liens" href="https://www.linkedin.com/in/jf-morin/">LinkedIn</a>
@@ -182,12 +189,11 @@ foreach  ($team as $member): ?> */
                         <p>Projet réalisé : Site multipages - Trombinoscope</p>
                         <div class="city">
                             <a class="liens" href="https://github.com/callejonmelissa">GitHub</a>
-                            <a class="liens"
-                                href="https://www.linkedin.com/in/m%C3%A9lissa-callejon-010013187/">LinkedIn</a>
+                            <a class="liens" href="https://www.linkedin.com/in/m%C3%A9lissa-callejon-010013187/">LinkedIn</a>
                         </div>
                         <div class="button-flex">
-                        <a href="./presentation.php" class="button-6" role="button">Voir le projet réalisé</a>
-                   </div> 
+                            <a href="./presentation.php" class="button-6" role="button">Voir le projet réalisé</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -239,8 +245,8 @@ foreach  ($team as $member): ?> */
                             <a class="liens" href="https://www.linkedin.com/in/yoann-brambilla-2a13a7234/">LinkedIn</a>
                         </div>
                         <div class="button-flex">
-                        <a href="./presentation.php" class="button-6" role="button">Voir le projet réalisé</a>
-                   </div> 
+                            <a href="./presentation.php" class="button-6" role="button">Voir le projet réalisé</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -291,8 +297,8 @@ foreach  ($team as $member): ?> */
                             <a class="liens" href="https://www.linkedin.com/in/yoann-brambilla-2a13a7234/">LinkedIn</a>
                         </div>
                         <div class="button-flex">
-                        <a href="./presentation.php" class="button-6" role="button">Voir le projet réalisé</a>
-                   </div> 
+                            <a href="./presentation.php" class="button-6" role="button">Voir le projet réalisé</a>
+                        </div>
                     </div>
                 </div>
 
@@ -342,8 +348,8 @@ foreach  ($team as $member): ?> */
                             <a class="liens" href="https://www.linkedin.com/in/yoann-brambilla-2a13a7234/">LinkedIn</a>
                         </div>
                         <div class="button-flex">
-                        <a href="./presentation.php" class="button-6" role="button">Voir le projet réalisé</a>
-                   </div> 
+                            <a href="./presentation.php" class="button-6" role="button">Voir le projet réalisé</a>
+                        </div>
                     </div>
                 </div>
 
@@ -374,8 +380,7 @@ foreach  ($team as $member): ?> */
 
             <div class="grid-span-2 photo-gris">
                 <div class="trombi-flexbox-left">
-                    <img
-                        src="https://media-exp1.licdn.com/dms/image/C5603AQGvJeTrV64qsg/profile-displayphoto-shrink_800_800/0/1626496188444?e=2147483647&v=beta&t=_0eD26AYUhK3KtfHuHlWWNnOmjbkkct0y5IjZ6cOIxM">
+                    <img src="https://media-exp1.licdn.com/dms/image/C5603AQGvJeTrV64qsg/profile-displayphoto-shrink_800_800/0/1626496188444?e=2147483647&v=beta&t=_0eD26AYUhK3KtfHuHlWWNnOmjbkkct0y5IjZ6cOIxM">
                     <div class="fullname-button">
                         <h3>Benoît Vandanjon</h3>
                         <p>Développeur Web Full-Stack Junior</p></br>

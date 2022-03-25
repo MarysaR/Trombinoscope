@@ -69,8 +69,13 @@ label {
 
 }
 
+
+
+
+
 .form button {
     border: 0rem;
+    display: inline;
     padding: 5px 10px;
     width: 30%;
     margin: 0 auto;

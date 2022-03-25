@@ -23,6 +23,7 @@
         <form action="newmember.php" method="post">
             <div class="container">
 
+                <div class="form_flex">
 
                 <div class="form_flex">
 
@@ -52,9 +53,15 @@
                         <button type="submit">Envoyer</button>
                     </div>
 
-
-
+                    </div>
                 </div>
+
+
+
+
+            </div>
+            </div>
+            </div>
             </div>
 
         </form>

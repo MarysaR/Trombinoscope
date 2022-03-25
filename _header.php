@@ -7,7 +7,7 @@
      <header>
 
           <div>
-               <a class="logo" href="/index.php">
+               <a class="logo" href="/trombinoscope.php">
                     dePhants</a>
           </div>
           <nav>
@@ -15,7 +15,7 @@
                <ul>
                     <li><a class="one" href="/trombinoscope.php">Accueil </a></li>
                     <li><a class="one" href="/presentation.php">Team dePhants </a></li>
-                    <li "><a class= " one" href="/contact.php">Contact</a></li>
+                    <li><a class= " one" href="/contact.php">Contact</a></li>
                </ul>
           </nav>
 

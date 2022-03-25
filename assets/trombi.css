@@ -17,7 +17,7 @@ span.hobbies {
 /* Section présentation wilders */
 
 .trombi-grid {
-    max-width: 80vh;
+    max-width: 80%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     /* gap: var(--spacing-4); */
@@ -49,6 +49,16 @@ span.hobbies {
 
 
 /* J'ai justifié le texte des photos de droite, à droite */
+
+@media screen and (max-width: 768px) {
+    .grid-span-2 {
+/*         grid-column: span 1;
+        grid-template-columns: 1fr; */
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 /*.justify-text-right {
     text-align: right;
 }*/
@@ -59,8 +69,13 @@ span.hobbies {
     flex-direction: column;
     background-color: var(--primary-foreground-color);
     border-radius: 2%;
-    width: 60rem;
+    width: 100%;
     padding: 1rem;
+}
+
+.button-flex {
+    display: flex;
+    justify-content: flex-end;
 }
 
 /* Voir pour l'icone, pour que le texte soit sur la même ligne */
@@ -95,7 +110,7 @@ img.icone {
     -webkit-user-select: none;
     touch-action: manipulation;
     vertical-align: baseline;
-    width: auto;
+    width: 250px;
 }
 
 .button-6:hover,
@@ -140,3 +155,4 @@ img.icone {
     margin-top: 5rem;
     /* J'ai espacé chaque bloc */
 }
+

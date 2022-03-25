@@ -20,7 +20,7 @@
 
 $error = [];
 
-if (isset($_POST)) {
+if (isset($_POST['prenom'])) {
   $data = array_map('trim', $_POST);
   $data = array_map('htmlspecialchars', $data);
   //protection contre les attaques XSS
@@ -28,8 +28,8 @@ if (isset($_POST)) {
 
   $fp = fopen('team.csv', 'a+');
   $fields = [
-    $data["name"],
     $data["prenom"],
+    $data["name"],
     $data["profil"],
     $data["picture"],
     $data["message"],
@@ -38,10 +38,10 @@ if (isset($_POST)) {
   fclose($fp);
 
   header("Location: index.php");
-} else {
+} /* else {
   $error[] = "<i>veuillez remplir le formulaire</i>";
   echo $error[0];
-};
+} */;
     // $html =  "<div class='grid-span-2 photo-gris'>";
     // $html .= "<div class='trombi-flexbox-left'>";
     // $html .=  "<h3><img src ='" . $_POST['picture'] . "'></h3>";

@@ -20,7 +20,7 @@
         </hr>
 
 
-        <form action="index.php" method="post">
+        <form action="newmember.php" method="post">
             <div class="container">
 
                 <div class="form_flex">

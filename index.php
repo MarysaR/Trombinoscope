@@ -60,7 +60,7 @@ foreach  ($team as $member): ?> */
                             <div class="<?= $class ?>">
                                 <img src="<?= $member[3] ?>">
                                 <div class="fullname-button">
-                                    <h3><?= $member[0] . $member[1] ?></h3>
+                                    <h3><?= $member[0] . " " . $member[1] ?></h3>
                                     <p><?= $member[2] ?></p></br>
 
                                     <p><span class="hobbies">Centre d'intérêt :</br></span><?= $member[4] ?></br>
@@ -408,7 +408,7 @@ foreach  ($team as $member): ?> */
 
                 </div>
 
-                <!-- <?php include '/newmember.php' ?> -->
+                <?php include("newmember.php") ?>
         </article>
 
     </main>

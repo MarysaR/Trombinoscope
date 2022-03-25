@@ -45,6 +45,7 @@ main {
     bottom: 0;
     /* opacity: .2; */
     z-index: -1;
+    overflow: hidden;
 }
 
 .bg-stripped div:nth-child(3n+1) {

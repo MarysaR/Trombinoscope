@@ -151,6 +151,7 @@ img.icone {
     justify-content: flex-end;
     align-items: center;
     margin-top: 5rem;
+    flex-direction: row-reverse;
     /* J'ai espacé chaque bloc */
 
 }
@@ -170,7 +171,7 @@ img.icone {
     }
 
     .trombi-flex-right {
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
     .fullname-button {
